@@ -258,8 +258,9 @@ PRODUCT_PACKAGES += \
     init.qti.kernel.sh \
     init.recovery.qcom.rc \
     init.target.rc \
-    ueventd.qcom.rc
-
+    ueventd.qcom.rc \
+    init.safailnet.rc
+    
 # IPACM
 PRODUCT_PACKAGES += \
     ipacm \
