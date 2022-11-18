@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_Spacewar.mk
+    $(LOCAL_DIR)/blaze_Spacewar.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_Spacewar-userdebug \
-    spark_Spacewar-user \
-    spark_Spacewar-eng
+    blaze_Spacewar-userdebug \
+    blaze_Spacewar-user \
+    blaze_Spacewar-eng
