@@ -25,7 +25,6 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    vendor/nxp/nfc \
     vendor/qcom/opensource/usb/etc
 
 # A/B
@@ -299,13 +298,6 @@ PRODUCT_PACKAGES += \
 # Neural Networks
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
-
-# NFC
-PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.2-service.pn8x \
-    NfcNci \
-    SecureElement \
-    Tag
 
 # OMX
 PRODUCT_PACKAGES += \
