@@ -9,6 +9,9 @@ persist.vendor.audio.fluence.voicecall=true
 persist.vendor.audio.fluence.voicecomm=true
 persist.vendor.audio.ha_proxy.enabled=true
 persist.vendor.audio.voicecall.speaker.stereo=true
+ro.af.client_heap_size_kbyte=7168
+ro.vendor.audio.sdk.fluencetype=fluence
+ro.vendor.audio.sdk.ssr=false
 vendor.audio_hal.in_period_size=144
 vendor.audio_hal.period_multiplier=3
 vendor.audio_hal.period_size=192
@@ -52,6 +55,7 @@ vendor.audio.use.sw.ape.decoder=true
 vendor.audio.use.sw.mpegh.decoder=true
 vendor.audio.volume.headset.gain.depcal=true
 vendor.voice.path.for.pcm.voip=true
+persist.audio.fluence.mode=endfire
 
 # Bluetooth
 persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac-lc3
