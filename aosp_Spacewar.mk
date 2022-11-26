@@ -4,6 +4,14 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# PixelPlus-UI Official Stuff
+IS_PHONE := true
+CUSTOM_BUILD_TYPE := OFFICIAL
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_INCLUDE_STOCK_ACORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)

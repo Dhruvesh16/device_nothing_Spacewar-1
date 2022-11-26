@@ -32,3 +32,6 @@ bluetooth.profile.sap.server.enabled?=true
 
 # Thermal
 persist.vendor.thermal.config=/vendor/etc/thermal-engine.conf
+
+ro.pixelplusui.maintainer=Dhruvesh
+org.pixelplusui.device=NothingPhone(1)
